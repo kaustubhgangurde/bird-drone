@@ -1,0 +1,69 @@
+﻿<svg width="1200" height="400" viewBox="0 0 1200 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Dark Background -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117" />
+      <stop offset="100%" stop-color="#161b22" />
+    </linearGradient>
+    
+    <!-- Blueprint Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#21262d" stroke-width="1"/>
+    </pattern>
+
+    <!-- Circuit/Robot Accent Colors -->
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#58a6ff" />
+      <stop offset="100%" stop-color="#79c0ff" />
+    </linearGradient>
+  </defs>
+
+  <!-- Base Rectangles -->
+  <rect width="1200" height="400" fill="url(#bg)" />
+  <rect width="1200" height="400" fill="url(#grid)" />
+
+  <!-- Robotic/Circuit Decorative Elements -->
+  <!-- Left Side Blueprint Graphics -->
+  <g stroke="#30363d" stroke-width="2" fill="none">
+    <path d="M -50,150 L 150,150 L 250,50 L 400,50" />
+    <circle cx="150" cy="150" r="4" fill="#30363d" />
+    <circle cx="250" cy="50" r="4" fill="#30363d" />
+    <path d="M -50,300 L 200,300 L 300,380 L 500,380" />
+    <circle cx="200" cy="300" r="4" fill="#30363d" />
+    <circle cx="300" cy="380" r="4" fill="#30363d" />
+  </g>
+
+  <!-- Right Side Tech Graphics -->
+  <g stroke="#30363d" stroke-width="2" fill="none">
+    <path d="M 1250,100 L 1000,100 L 900,200 L 700,200" />
+    <circle cx="1000" cy="100" r="4" fill="#30363d" />
+    <circle cx="900" cy="200" r="4" fill="#30363d" />
+    <path d="M 1250,280 L 1050,280 L 950,150" />
+    <circle cx="1050" cy="280" r="4" fill="#30363d" />
+  </g>
+
+  <!-- Abstract Mechanical Gear/Eye -->
+  <g transform="translate(1000, 200)" opacity="0.3">
+    <circle cx="0" cy="0" r="100" fill="none" stroke="#58a6ff" stroke-width="2" stroke-dasharray="10 5" />
+    <circle cx="0" cy="0" r="80" fill="none" stroke="#58a6ff" stroke-width="1" />
+    <circle cx="0" cy="0" r="50" fill="none" stroke="#58a6ff" stroke-width="8" stroke-dasharray="20 10" />
+    <circle cx="0" cy="0" r="20" fill="#58a6ff" />
+    <path d="M -120,0 L -80,0 M 120,0 L 80,0 M 0,-120 L 0,-80 M 0,120 L 0,80" stroke="#58a6ff" stroke-width="2" />
+  </g>
+
+  <!-- Text Content -->
+  <g text-anchor="middle" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+    <text x="600" y="170" font-size="64" font-weight="900" fill="#c9d1d9" letter-spacing="4">KAUSTUBH GANGURDE</text>
+    <text x="600" y="220" font-size="28" font-weight="600" fill="url(#accent)" letter-spacing="2">ROBOTICS &amp; AUTOMATION ENGINEER</text>
+    
+    <!-- Skills Pills -->
+    <g transform="translate(600, 280)">
+      <text x="-400" y="0" font-size="16" fill="#8b949e">● EMBEDDED SYSTEMS</text>
+      <text x="-200" y="0" font-size="16" fill="#8b949e">● ROS2</text>
+      <text x="-70" y="0" font-size="16" fill="#8b949e">● AI</text>
+      <text x="50" y="0" font-size="16" fill="#8b949e">● MACHINE LEARNING</text>
+      <text x="250" y="0" font-size="16" fill="#8b949e">● COMPUTER VISION</text>
+      <text x="450" y="0" font-size="16" fill="#8b949e">● INDUSTRIAL AUTOMATION</text>
+    </g>
+  </g>
+</svg>

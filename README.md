@@ -1,4 +1,7 @@
-﻿# Bird Drone – Flapping Wing UAV
+﻿<div align="center">
+  <img src="assets/banner.svg" alt="Project Banner" width="100%">
+</div>
+# Bird Drone – Flapping Wing UAV
 
 ![Full Drone View](images/Full_Drone_View.jpg)
 
@@ -123,3 +126,4 @@ MIT License
 **Kaustubh Gangurde**
 - LinkedIn: [kaustubh-gangurde](https://linkedin.com/in/kaustubh-gangurde-a0943122b)
 - GitHub: [kaustubhgangurde](https://github.com/kaustubhgangurde)
+

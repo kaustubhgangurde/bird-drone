@@ -1,0 +1,11 @@
+﻿build/
+.pio/
+*.o
+*.elf
+*.bin
+.vscode/
+.DS_Store
+__pycache__/
+.gradle/
+local.properties
+*.apk
